@@ -1,0 +1,17 @@
+{
+	"name": "algoritms",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:DubiumEkb/algoritms.git",
+	"author": "DubiumEkb <dubium-ekb@ya.ru>",
+	"license": "MIT",
+	"scripts": {
+		"build": "node build.js",
+		"build:watch": "tsc --watch"
+	},
+	"devDependencies": {
+		"@types/node": "^22.0.2",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.5.4"
+	}
+}
